@@ -1,0 +1,31 @@
+@media (max-width: 490px) {
+  .left-div {
+    display: flex;
+    justify-content: center;
+  }
+  .left-div img {
+    width: 80%;
+  }
+}
+
+/* Tablets landscape / small laptops */
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .user-name {
+    text-align: center;
+  }
+
+  .user-cv {
+    align-items: center;
+  }
+}
+
+/* Desktops */
+@media (max-width: 1440px) {
+  .content {
+    width: 100%;
+  }
+}
